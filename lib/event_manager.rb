@@ -1,5 +1,7 @@
 puts "Event Manager Initialized!"
 
+
+# The below code is manually defining a CSV parser: not ideal because Ruby provides a CSV parser
 # Contents returns everything as one large string
 # contents = File.read "event_attendees.csv"
 # puts contents
